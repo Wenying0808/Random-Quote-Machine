@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <title>Random Quote Machine</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/d606f8987f.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <h1>Random Quote Machine</h1>
+    <div id="wrapper">
+      
+      <div id="quote-box">
+        <div class="quote-text">
+          <i class="fa fa-quote-left" aria-hidden="true"></i>
+          <span id="text"></span>
+        </div>
+        <div class="quote-author">- <span id="author"></span>
+        </div>
+        <div class="buttons">
+          <a class="button" id="tweet-quote" title="Tweet this quote" target="_top">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+          </a>
+          
+          <a class="button" id="meta-quote" title="Share this quote via Meta" target="_blank">
+            <i class="fa-brands fa-meta" aria-hidden="true"></i>
+          </a>
+   
+          <button id="new-quote" title="Generate new quote">New quote</button> 
+        </div>
+  
+      </div>
+      
+      <div class="footer">By <a href="https://codepen.io/Wenying-Chang/pen/NWoJwxr" target="_blank">Wenying</a>         </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
